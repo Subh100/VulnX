@@ -60,6 +60,7 @@ if __name__=="__main__":
 
     dataset = pd.concat([normal, attack], ignore_index=True)
 
-    dataset.to_csv("endpoint_dataset.csv", index=False)
+    dataset.to_csv("../data/endpoint_dataset.csv", index=False)
+
 
     print("Dataset generated successfully.")
